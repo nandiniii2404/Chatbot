@@ -1,0 +1,73 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hey! How can I help you?"
+            ]
+        },
+        {
+            "tag": "exam_schedule",
+            "patterns": [
+                "When is the exam?",
+                "Exam schedule",
+                "Exam date"
+            ],
+            "responses": [
+                "The exams start next Monday. Check your portal for details."
+            ]
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "What is the syllabus?",
+                "Syllabus for DSA",
+                "Subjects included"
+            ],
+            "responses": [
+                "The syllabus is available on the department website."
+            ]
+        },
+        {
+            "tag": "professor_contact",
+            "patterns": [
+                "How to contact professor?",
+                "Email my teacher",
+                "Talk to my professor"
+            ],
+            "responses": [
+                "You can contact your professor via their official email listed on the course page."
+            ]
+        },
+        {
+            "tag": "library_hours",
+            "patterns": [
+                "When is the library open?",
+                "Library timings",
+                "Library hours"
+            ],
+            "responses": [
+                "The library is open from 9 AM to 8 PM on weekdays."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!"
+            ]
+        }
+    ]
+}
